@@ -1,0 +1,11 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "app.awardia/awardia",
+  "title": "Awardia",
+  "description": "EU public tenders for AI agents: open tenders, award history, competitors and bid intelligence.",
+  "version": "0.1.0",
+  "websiteUrl": "https://awardia.app",
+  "remotes": [
+    { "type": "streamable-http", "url": "https://awardia.app/mcp" }
+  ]
+}
